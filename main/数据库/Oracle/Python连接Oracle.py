@@ -1,4 +1,5 @@
 import cx_Oracle
+# python3.5
 
 
 def connectOracle(account, sql):
