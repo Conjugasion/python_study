@@ -4,6 +4,7 @@
 """
 
 
+# 选择排序
 def selectSort(a):
     for i in range(len(a) - 1):
         min = i

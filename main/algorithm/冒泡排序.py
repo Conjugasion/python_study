@@ -4,6 +4,7 @@
 """
 
 
+# 冒泡排序
 def bubbleSort(a):
     for i in range(len(a) - 1):  # 一共要尝试冒几次泡
         for j in range(len(a) - i - 1):  # 每次要两两比较几次

@@ -4,8 +4,8 @@
 """
 
 
+# 基数排序
 def radixSort(a):
-
     length = 1
     for i in range(len(a)):
         a[i] = str(a[i])
@@ -44,7 +44,7 @@ def radixSort(a):
             a += dict1[key]
 
     for i in range(len(a)):
-        a[i] = int(a[i].lstrip("0"))
+        a[i] = int(a[i])
 
 
 if __name__ == '__main__':

@@ -3,9 +3,9 @@
 @date 2019/4/1 9:10
 [80,30,60,20,  10,60,50,70,40]
 """
-import math
 
 
+# 归并排序
 def merge(a, start, mid, end):
     temp = []
     i = start

@@ -4,6 +4,7 @@
 """
 
 
+# 快速排序
 # 默认取第一个元素作为轴枢
 def fastSort(a, left, right):
 

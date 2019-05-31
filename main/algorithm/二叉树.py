@@ -4,6 +4,7 @@
 """
 
 
+# 二叉树
 class Node(object):
     value = 100
 

@@ -4,6 +4,7 @@
 """
 
 
+# 二分查找
 def search(nums, target):
     left = 0
     right = len(nums) - 1
